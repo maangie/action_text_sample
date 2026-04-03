@@ -7,35 +7,33 @@ class MessagesTest < ApplicationSystemTestCase
 
   test "visiting the index" do
     visit messages_url
-    assert_selector "h1", text: "Messages"
+    assert_selector "h2", text: "メッセージ一覧"
   end
 
   test "creating a Message" do
     visit messages_url
-    click_on "New Message"
+    click_on "＋ 新規作成"
 
-    click_on "Create Message"
+    click_on "保存する"
 
-    assert_text "Message was successfully created"
-    click_on "Back"
+    assert_text "Message was successfully created."
+    click_on "← 一覧へ"
   end
 
   test "updating a Message" do
     visit messages_url
-    click_on "Edit", match: :first
+    click_on "✏️ 編集", match: :first
 
-    click_on "Update Message"
+    click_on "保存する"
 
-    assert_text "Message was successfully updated"
-    click_on "Back"
+    assert_text "Message was successfully updated."
+    click_on "← 一覧へ"
   end
 
   test "destroying a Message" do
     visit messages_url
-    page.accept_confirm do
-      click_on "Destroy", match: :first
-    end
+    click_on "🗑 削除", match: :first
 
-    assert_text "Message was successfully destroyed"
+    assert_text "Message was successfully destroyed."
   end
 end

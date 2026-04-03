@@ -1,4 +1,9 @@
-# one:
-#   record: name_of_fixture (ClassOfFixture)
-#   name: content
-#   body: <p>In a <i>million</i> stars!</p>
+message_one_content:
+  record: one (Message)
+  name: content
+  body: <p>テストメッセージその1</p>
+
+message_two_content:
+  record: two (Message)
+  name: content
+  body: <p>テストメッセージその2</p>
