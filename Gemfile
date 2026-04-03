@@ -11,6 +11,7 @@ gem 'importmap-rails'
 gem 'turbo-rails'
 gem 'stimulus-rails'
 gem 'dartsass-rails'
+gem 'tailwindcss-rails'
 gem 'jbuilder'
 gem 'image_processing', '~> 1.2'
 gem 'bootsnap', require: false
