@@ -4,7 +4,7 @@
 
 ## 1. アプリの概要
 
-このアプリは、Rails 8.1.3 と Ruby 4.0.2 で構築された Action Text のサンプルアプリです。`Message` モデルに `has_rich_text :content` を設定しており、Trix エディタを使ってリッチテキストを作成・編集できます。
+このアプリは、Rails 8.1.3 と Ruby 4.0.3 で構築された Action Text のサンプルアプリです。`Message` モデルに `has_rich_text :content` を設定しており、Trix エディタを使ってリッチテキストを作成・編集できます。
 
 `Message` に対して一覧、詳細、新規作成、編集、削除の CRUD 機能を備えており、Tailwind CSS で画面をスタイリングしています。JavaScript の管理には `importmap-rails` を使用し、データベースには SQLite3 を採用しています。
 
@@ -12,7 +12,7 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| Ruby | 4.0.2 |
+| Ruby | 4.0.3 |
 | Rails | 8.1.3 |
 | データベース | SQLite3 |
 | リッチテキスト | Action Text, Trix |
