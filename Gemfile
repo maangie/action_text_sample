@@ -5,7 +5,7 @@ ruby '4.0.5'
 
 gem 'rails', '~> 8.0'
 gem 'sqlite3', '>= 2.0'
-gem 'puma', '>= 6.0'
+gem 'puma', '>= 8.0'
 gem 'propshaft'
 gem 'importmap-rails'
 gem 'turbo-rails'
