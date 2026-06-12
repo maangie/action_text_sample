@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '4.0.3'
+ruby '4.0.5'
 
 gem 'rails', '~> 8.0'
 gem 'sqlite3', '>= 2.0'
-gem 'puma', '>= 6.0'
+gem 'puma', '>= 8.0'
 gem 'propshaft'
 gem 'importmap-rails'
 gem 'turbo-rails'
